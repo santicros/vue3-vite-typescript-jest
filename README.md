@@ -14,11 +14,11 @@ npm run dev
 
 
 ## Run tests
+Run unit tests once
 ```sh
-Run unit texts once
 npm run test:unit
 ```
-You can watch for changes with
+Run unit tests in watch mode
 ```sh
 npm run test:unit -- --watch
 ```
