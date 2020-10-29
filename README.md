@@ -1,6 +1,10 @@
-# Starter with Vue3 + Vite + Typescript + Jest + ESLint + Prettier
-It has everything set up so it's really fast to start a new project 🚀
-
+<p align="center">
+  <h3 align="center">Starter with Vue 3 + Vite + TypeScript + Jest + ESLint + Prettier</h3>
+  <p align="center">
+    Start a new project really fast with great defaults. 🚀
+    <br>
+  </p>
+</p>
 
 ## Development
 1. Install dependencies
@@ -23,8 +27,8 @@ Run unit tests in watch mode
 npm run test:unit -- --watch
 ```
 
-## Build production
-Build for production
+## Build for production
+Build production mode
 ```
 npm run build
 ```
