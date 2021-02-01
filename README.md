@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">Starter with Vue 3 + Vite + TypeScript + Jest + ESLint + Prettier</h3>
+  <h3 align="center">Starter with Vue 3 + Vite 2 + TypeScript + Jest + ESLint + Prettier</h3>
   <p align="center">
     Start a new project really fast with great defaults. 🚀
     <br>
