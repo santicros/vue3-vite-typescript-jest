@@ -7,28 +7,32 @@
 </p>
 
 ## Development
+Using `pnpm`
+
 1. Install dependencies
 ```sh
-npm install
+pnpm install
 ```
 2. Run the project in development mode
 ```
-npm run dev
+pnpm dev
 ```
-
-
+3. Lint the project
+```
+pnpm lint
+```
 ## Run tests
 Run unit tests once
 ```sh
-npm run test:unit
+pnpm test:unit
 ```
 Run unit tests in watch mode
 ```sh
-npm run test:unit -- --watch
+pnpm test:unit -- --watch
 ```
 
 ## Build for production
 Build production mode
 ```
-npm run build
+pnpm build
 ```
