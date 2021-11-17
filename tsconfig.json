@@ -10,11 +10,15 @@
     "noUnusedParameters": true,
     "isolatedModules": true,
     "noImplicitAny": true,
+    "resolveJsonModule": true,
     "jsx": "preserve",
     "importHelpers": true,
     "baseUrl": ".",
-    "lib": ["ESNext", "dom"]
+    "lib": ["ESNext", "dom"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "include": ["src/**/*.ts", "src/**/*.vue"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
   "exclude": ["node_modules"]
 }
