@@ -8,8 +8,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:jest/recommended',
     '@vue/typescript/recommended',
-    '@vue/prettier',
-    '@vue/prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
   ],
   parserOptions: {
     parser: '@typescript-eslint/parser',
@@ -22,6 +21,9 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     'sort-imports': 'off',
     'import/order': 'off',
+    'vue/html-closing-bracket-newline': 'off',
+    'vue/html-indent': 'off',
+    'vue/html-self-closing': 'off',
   },
   plugins: ['simple-import-sort'],
 }
